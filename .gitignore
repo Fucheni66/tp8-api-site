@@ -1,0 +1,17 @@
+# 根目录只上传 website/ 目录
+*
+!/.gitignore
+!/website/
+
+# website 下常见忽略
+/website/.env
+/website/vendor/
+/website/runtime/
+/website/public/uploads/
+/website/public/snippets/ads/*.html
+
+# 开发工具与系统文件
+.DS_Store
+/.idea/
+/.vscode/
+node_modules/
